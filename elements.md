@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elements
+title: Game 1
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
