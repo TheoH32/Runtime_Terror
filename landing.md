@@ -1,5 +1,6 @@
 ---
 title: Binary Quiz
+layout: page
 description: "The final test of knowledge!"
 image: assets/images/pic07.jpg
 nav-menu: true
@@ -75,6 +76,7 @@ nav-menu: true
   .choice-text {
     padding: 1.5rem;
     width: 100%;
+	color: black;
   }
 
   #hud {
