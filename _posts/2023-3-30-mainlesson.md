@@ -3,6 +3,7 @@ layout: post
 title: Main Binary Lesson 
 description: Learn the basics of binary!
 image: assets/images/mainlesson.jpg
+navmenu: true
 ---
 
 # Boolean Expressions
@@ -23,6 +24,10 @@ Binary values are used to represent information. Boolean expressions are used to
 |or	|Disjunction|
 |not	|Negation|
 
+
+
 # Truth Tables
 
-<mark>Truth tables</mark> represent the possible inputs and outputs of the logical operations of AND, OR, and NOT.
+<mark>Truth tables</mark> represent the possible inputs and outputs of the logical operations of AND, OR, NOT, and XOR.
+
+![truth tables]({{site.baseurl}}/assets/images/truthtables.png)

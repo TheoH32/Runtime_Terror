@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Game 1
-image: assets/images/pic01.jpg
+title: Main Lesson
+image: assets/images/mainlesson.jpg
 nav-menu: true
 ---
 
