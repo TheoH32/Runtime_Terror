@@ -1,4 +1,4 @@
---
+---
 layout: post
 title: Main Binary Lesson
 description: Learn the basics of binary!
