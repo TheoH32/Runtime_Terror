@@ -1,6 +1,6 @@
 ---
 layout: allposts
-title: Main Lesson
+title: All Posts
 landing-title: 'All posts'
 nav-menu: true
 description: null
@@ -9,4 +9,4 @@ author: null
 show_tile: false
 ---
 
-<h1>Main Lesson</h1>
+<h1>All Posts</h1>
