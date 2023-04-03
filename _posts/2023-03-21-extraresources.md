@@ -23,7 +23,7 @@ image: assets/images/binaryeasyas123.jpg
 > <mark>Binary serach</mark> is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item, until you've narrowed down the possible locations to just one.
 
 
-## <mark>Need help?</mark>
+## Need help?
 > Here are some links to resources we think are helpful!
 
 - [GeeksforGeeks Binary Search Tutorial](https://www.geeksforgeeks.org/binary-search/)
