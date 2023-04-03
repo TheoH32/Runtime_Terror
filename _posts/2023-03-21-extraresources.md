@@ -14,9 +14,10 @@ image: assets/images/binaryeasyas123.jpg
 > <mark>Binary</mark> describes a numbering scheme in which there are only two possible values for each digit -- 0 or 1 -- and is the basis for all binary code used in computing systems. 
 
 ### Truth Tables and Booleans
+> <mark>Truth Tables</mark>> represent the possible inputs and outputs of the logical operations of AND, OR, NOT, and XOR. <mark>Binary and Boolean expressions </mark> are closely related because Boolean expressions are typically used to evaluate binary values, which can either be true or false (1 or 0).
 
 ### Binary Conversions
-> 
+> In the <mark>conversion of Decimal to Binary</mark>, we convert base 10 numbers to base 2 numbers
 
 ### What is Binary Search?
 > <mark>Binary serach</mark> is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item, until you've narrowed down the possible locations to just one.
