@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Extra Resources 
+title: Extra Resources
 description: Need help or want to know more about binary? This page is for you!
 image: assets/images/binaryeasyas123.jpg
+nav-menu: true
 ---
 
 # 1001 01 01 (911) Binary Help
