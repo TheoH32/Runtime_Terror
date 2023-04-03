@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Main Binary Lesson 
+title: Main Binary Lesson
 description: Learn the basics of binary!
 image: assets/images/mainlesson.jpg
-navmenu: true
+nav-menu: true
 ---
 
 # Boolean Expressions
