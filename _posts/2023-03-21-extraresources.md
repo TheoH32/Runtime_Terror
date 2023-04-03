@@ -11,7 +11,7 @@ image: assets/images/binaryeasyas123.jpg
 
 
 ### Binary
-> Binary describes a numbering scheme in which there are only two possible values for each digit -- 0 or 1 -- and is the basis for all binary code used in computing systems. 
+> <mark>Binary</mark> describes a numbering scheme in which there are only two possible values for each digit -- 0 or 1 -- and is the basis for all binary code used in computing systems. 
 
 ### Truth Tables and Booleans
 
@@ -19,10 +19,11 @@ image: assets/images/binaryeasyas123.jpg
 > 
 
 ### What is Binary Search?
-> Binary serach is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item, until you've narrowed down the possible locations to just one.
+> <mark>Binary serach</mark> is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item, until you've narrowed down the possible locations to just one.
 
 
-## Need help? Here are some links to resources we think are helpful!
+## <mark>Need help?</mark>
+> Here are some links to resources we think are helpful!
 
 - [GeeksforGeeks Binary Search Tutorial](https://www.geeksforgeeks.org/binary-search/)
 - [Khan Academy Binary Search Lesson](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
