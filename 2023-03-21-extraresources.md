@@ -8,29 +8,47 @@ nav-menu: true
 
 # 1001 01 01 (911) Binary Help
 
-## General Vocabulary and Topics
-
-
-### Binary
-> <mark>Binary</mark> describes a numbering scheme in which there are only two possible values for each digit -- 0 or 1 -- and is the basis for all binary code used in computing systems. 
-
-### Truth Tables and Booleans
-> <mark>Truth Tables</mark> represent the possible inputs and outputs of the logical operations of AND, OR, NOT, and XOR. <mark>Binary and Boolean expressions </mark> are closely related because Boolean expressions are typically used to evaluate binary values, which can either be true or false (1 or 0).
-
-### Binary Conversions
-> In the <mark>conversion of Decimal to Binary</mark>, we convert base 10 numbers to base 2 numbers
-
-### What is Binary Search?
-> <mark>Binary serach</mark> is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item, until you've narrowed down the possible locations to just one.
-
-
 ## Need help?
-> Here are some links to resources we think are helpful!
+> This page offers simple definitions and extra resources!
 
-- [GeeksforGeeks Binary Search Tutorial](https://www.geeksforgeeks.org/binary-search/)
-- [Khan Academy Binary Search Lesson](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-- [Coursera Algorithms, Part I Course](https://www.coursera.org/learn/algorithms-part1)
-- [LeetCode](https://leetcode.com/problemset/all/?topicSlugs=binary-search)
-- [CS Dojo Binary Search Tutorial](https://www.youtube.com/watch?v=P3YID7liBug)
-- [Tushar Roy Binary Search Tutorial](https://www.youtube.com/watch?v=GU7DpgHINWQ)
-- [Time Manage!](https://www.youtube.com/watch?v=iDbdXTMnOmE)
+<h3>General Vocabulary, Topics, and Resources</h3>
+
+<h4>Default</h4>
+<div class="table-wrapper">
+	<table>
+		<thead>
+			<tr>
+				<th>Topic</th>
+				<th>Definition</th>
+				<th>Extra Resources</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Binary</td>
+				<td><mark>Binary</mark> describes a numbering scheme in which there are only two possible values for each digit -- 0 or 1 -- and is the basis for all binary code used in computing systems.</td>
+				<td><a href="https://edu.gcfglobal.org/en/computer-science/binary/1/#">- GCFGlobal Binary Basics</a></td>
+			</tr>
+			<tr>
+				<td>Truth Tables and Booleans</td>
+				<td><mark>Truth Tables</mark> represent the possible inputs and outputs of the logical operations of AND, OR, NOT, and XOR. <mark>Binary and Boolean expressions </mark> are closely related because Boolean expressions are typically used to evaluate binary values, which can either be true or false (1 or 0).</td>
+				<td><a href="https://www.electronics-tutorials.ws/boolean/bool_7.html">- Electronics Tutorials Truth Tables</a></td>
+			</tr>
+			<tr>
+				<td>Binary Conversions</td>
+				<td> In the <mark>conversion of Decimal to Binary</mark>, we convert base 10 numbers to base 2 numbers</td>
+				<td><a href="https://ryanstutorials.net/binary-tutorial/binary-conversions.php">- Ryan's Tutorial Binary Conversions </a> <br><br> <a href="https://www.cuemath.com/numbers/binary-number-system/">- CueMath Binary Conversions Tutorial</a><br><br> <a href="https://www.rapidtables.com/convert/number/binary-to-decimal.html">- Rapid Tables Binary to Decimal Converter</a></td>
+			</tr>
+			<tr>
+				<td>Binary Search</td>
+				<td><mark>Binary serach</mark> is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item, until you've narrowed down the possible locations to just one.</td>
+				<td><a href="https://www.geeksforgeeks.org/binary-search/">- GeeksforGeeks Binary Search Tutorial</a><br><br> <a href="https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search">- Khan Academy Binary Search Lesson</a><br><br> <a href="https://www.youtube.com/watch?v=P3YID7liBug">- CS Dojo Binary Search Tutorial</a><br><br> <a href="https://www.youtube.com/watch?v=GU7DpgHINWQ">- Tushar Roy Binary Search Tutorial</a></td>
+			</tr>
+            <tr>
+				<td>Time Management</td>
+				<td> Want to be a coder? You need time management!</td>
+				<td><a href="https://www.youtube.com/watch?v=iDbdXTMnOmE">TED Talk: Time Management</a></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
