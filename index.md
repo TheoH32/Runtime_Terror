@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: Binary Games
+landing-title: Welcome to Binary!
 description: null
 image: null
 author: null
