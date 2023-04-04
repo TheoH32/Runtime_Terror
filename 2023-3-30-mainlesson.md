@@ -6,6 +6,21 @@ image: assets/images/mainlesson.jpg
 nav-menu: true
 ---
 
+# Binary 
+
+### What is Binary?
+ - According to [Computer Hope](https://www.computerhope.com/jargon/b/binary.htm): <mark>Binary is a base-2 number system</mark> invented by Gottfried Leibniz that's made up of <mark>only two numbers or digits: 0 and 1.</mark> This numbering system is the basis for all binary code, which writes digital data such as the computer processor instructions **used with your devices every day.**
+
+ - 0 = represents OFF
+ - 1 = represents ON
+ 
+
+### Fun Fact! Connections with Binary
+![power button](https://user-images.githubusercontent.com/111486111/229915329-cc5e5c3b-cfd7-4313-8c57-f2a02e36c3bb.png)
+
+Do you see how the iconic power button is comprised of a zero and a one? The zero represents the device being off, and the one represents the device being on.
+
+
 # Boolean Expressions
 > definition here
 
