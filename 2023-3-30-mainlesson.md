@@ -21,6 +21,10 @@ nav-menu: true
 Do you see how the iconic power button is comprised of a zero and a one? The zero represents the device being off, and the one represents the device being on.
 
 
+### How Do you Read Binary?
+> Since binary is a base two system, we can count in binary by
+
+
 # Boolean Expressions
 > definition here
 
