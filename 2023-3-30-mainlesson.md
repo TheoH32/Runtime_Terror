@@ -59,6 +59,9 @@ ex. 01110101
 </code></pre>
 
 
+**You can play round with [this tool](https://www.computerhope.com/cgi-bin/convert.pl) to convert your text to binary and vise versa**
+
+
 # Boolean Expressions
 > definition here
 
@@ -115,4 +118,8 @@ else:
 You are eligible to vote.
 
 </code></pre>
+
+
+
+# Hacks
 
