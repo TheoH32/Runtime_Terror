@@ -122,8 +122,46 @@
 
 <h3 id="how-do-you-read-binary">How Do you Read Binary?</h3>
 <blockquote>
-  <p>Since binary is a base two system, we can count in binary by</p>
+  <p>Since binary is a base two system, we can count in binary by using powers of two.</p>
 </blockquote>
+
+<p><img src="https://user-images.githubusercontent.com/111486111/230675163-d49a20b5-f8f4-4997-bb19-c10d5ca72a76.jpg" alt="binarytutorial" /></p>
+
+<ol>
+  <li>Read from right to left.</li>
+  <li>Start with 2<sup>0</sup> on the right, when the most right bit is 1 (not 0), then it has a value of 1.</li>
+</ol>
+<pre><code>
+ex. 0001 = 1
+</code></pre>
+<ol>
+  <li>Work your way left: ex. 2<sup>1</sup>=2, 2<sup>2</sup>=4 and so on. When the bit is on, add its value to your total</li>
+</ol>
+<pre><code>
+ex.
+0010 = 2
+0100 = 4
+
+Now add them up!
+0111 = 4 + 2 + 1 = 7
+</code></pre>
+
+<h3 id="binary-vocabulary">Binary Vocabulary</h3>
+
+<p><mark>Bit</mark>= A binary digit = the minimum unit of binary information stored in a computer system (only two states: 1 or 0)</p>
+<pre><code>
+ex. 1 or 0
+</code></pre>
+
+<p><mark>Nibble</mark>= 4 bits or half of a byte</p>
+<pre><code>
+ex. 0001
+</code></pre>
+
+<p><mark>Byte</mark>= 8 bits or 2 nibbles</p>
+<pre><code>
+ex. 01110101
+</code></pre>
 
 <h1 id="boolean-expressions">Boolean Expressions</h1>
 <blockquote>

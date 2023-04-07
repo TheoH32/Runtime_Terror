@@ -22,7 +22,41 @@ Do you see how the iconic power button is comprised of a zero and a one? The zer
 
 
 ### How Do you Read Binary?
-> Since binary is a base two system, we can count in binary by
+> Since binary is a base two system, we can count in binary by using powers of two. 
+
+![binarytutorial](https://user-images.githubusercontent.com/111486111/230675163-d49a20b5-f8f4-4997-bb19-c10d5ca72a76.jpg)
+
+1. Read from right to left.
+2. Start with 2<sup>0</sup> on the right, when the most right bit is 1 (not 0), then it has a value of 1. 
+<pre><code>
+ex. 0001 = 1
+</code></pre>
+3. Work your way left: ex. 2<sup>1</sup>=2, 2<sup>2</sup>=4 and so on. When the bit is on, add its value to your total
+<pre><code>
+ex.
+0010 = 2
+0100 = 4
+
+Now add them up!
+0111 = 4 + 2 + 1 = 7
+</code></pre>
+
+### Binary Vocabulary
+
+<mark>Bit</mark>= A binary digit = the minimum unit of binary information stored in a computer system (only two states: 1 or 0)
+<pre><code>
+ex. 1 or 0
+</code></pre>
+
+<mark>Nibble</mark>= 4 bits or half of a byte
+<pre><code>
+ex. 0001
+</code></pre>
+
+<mark>Byte</mark>= 8 bits or 2 nibbles
+<pre><code>
+ex. 01110101
+</code></pre>
 
 
 # Boolean Expressions
