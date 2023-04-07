@@ -130,6 +130,13 @@
   <p>definition here</p>
 </blockquote>
 
+<h3 id="truth-tables">Truth Tables</h3>
+<blockquote>
+  <p><mark>Truth tables</mark> represent the possible inputs and outputs of the logical operations of AND, OR, NOT, and XOR.</p>
+</blockquote>
+
+<p><img src="/Runtime-Terror/assets/images/truthtables.png" alt="truth tables" /></p>
+
 <h1 id="how-is-binary-related-to-boolean-expressions">How is Binary Related to Boolean Expressions?</h1>
 
 <p><mark>Binary and Boolean expressions</mark> are closely related because Boolean expressions are typically used to evaluate binary values, which can either be true or false (1 or 0).</p>
@@ -159,11 +166,39 @@
   </tbody>
 </table>
 
-<h1 id="truth-tables">Truth Tables</h1>
+<pre><code>
+AND:
+5 &gt; 3 and 5 == 3 + 2
+true
+5 &lt; 3 and 5 == 5
+false
 
-<p><mark>Truth tables</mark> represent the possible inputs and outputs of the logical operations of AND, OR, NOT, and XOR.</p>
+OR:
+5 == 5 or 5 != 5
+True
+5 &lt; 3 or 5 != 5
+False
 
-<p><img src="/Runtime-Terror/assets/images/truthtables.png" alt="truth tables" /></p>
+</code></pre>
+
+<h3 id="what-about-a-real-life-example">What About a Real Life Example?</h3>
+<blockquote>
+  <p>Here is an example of the use of boolean expressions in real life.</p>
+</blockquote>
+
+<pre><code>
+age = 18
+citizen = True
+
+if age &gt;= 18 and citizen:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+
+You are eligible to vote.
+
+</code></pre>
+
 
 	</div>
 </section>

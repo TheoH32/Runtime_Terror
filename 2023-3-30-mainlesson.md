@@ -30,6 +30,11 @@ Do you see how the iconic power button is comprised of a zero and a one? The zer
 
 
 
+### Truth Tables
+> <mark>Truth tables</mark> represent the possible inputs and outputs of the logical operations of AND, OR, NOT, and XOR.
+
+![truth tables]({{site.baseurl}}/assets/images/truthtables.png)
+
 
 # How is Binary Related to Boolean Expressions?
 
@@ -44,9 +49,36 @@ Binary values are used to represent information. Boolean expressions are used to
 |not	|Negation|
 
 
+<pre><code>
+AND:
+5 > 3 and 5 == 3 + 2
+true
+5 < 3 and 5 == 5
+false
 
-# Truth Tables
+OR:
+5 == 5 or 5 != 5
+True
+5 < 3 or 5 != 5
+False
 
-<mark>Truth tables</mark> represent the possible inputs and outputs of the logical operations of AND, OR, NOT, and XOR.
+</code></pre>
 
-![truth tables]({{site.baseurl}}/assets/images/truthtables.png)
+
+### What About a Real Life Example?
+> Here is an example of the use of boolean expressions in real life.
+
+
+<pre><code>
+age = 18
+citizen = True
+
+if age >= 18 and citizen:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+
+You are eligible to vote.
+
+</code></pre>
+
