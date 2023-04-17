@@ -145,7 +145,7 @@ nav-menu: true
   const progressBarFull = document.getElementById('progressBarFull');
   const loader = document.getElementById('loader');
   const game = document.getElementById('game');
-  const MAX_QUESTIONS = 10;
+  const MAX_QUESTIONS = 3;
   const questionCounterText = document.getElementById('questionCounter');
   let currentQuestion = {};
   let acceptingAnswers = false;
@@ -158,74 +158,28 @@ nav-menu: true
     // Update MAX_QUESTIONS when adding more
     // all questions and choices
       {
-          question: "Pick one that you're most likely to do on a night out?",
-          choice1: "Sit in bed",
-          choice2: "Play video games",
-          choice3: "Go out with friends",
-          choice4: "PARTY!!!",
+          question: "Favorite color?",
+          choice1: "blank",
+          choice2: "blank",
+          choice3: "purple",
+          choice4: "blank",
+          choiceAnswer: 3
       },
       {
-          question: "What would your friends describe you as?",
-          choice1: "Quiet",
-          choice2: "Loyal",
-          choice3: "Fun",
-          choice4: "Energetic",
+          question: "Favorite game",
+          choice1: "Apex",
+          choice2: "blank",
+          choice3: "blank",
+          choice4: "blank",
+          choiceAnswer: 1
       },
       {
-          question: "What is your favorite color from these options?",
-          choice1: "Black",
-          choice2: "Blue",
-          choice3: "Green",
-          choice4: "Pink",
-      },
-      {
-          question: "Favorite beverage?",
-          choice1: "Water",
-          choice2: "Tea/coffee",
-          choice3: "Juice",
-          choice4: "Combination of multiple drinks",
-      },
-      {
-          question: "I am very social",
-          choice1: "Completely disagree",
-          choice2: "Somewhat disagree",
-          choice3: "Somewhat agree",
-          choice4: "Completely agree",
-      },
-      {
-          question: "How much free time do you spend pursuing hobbies/interests?",
-          choice1: "A lot",
-          choice2: "A little bit",
-          choice3: "Whenever I can",
-          choice4: "I'm too busy",
-      },
-      {
-          question: "I can make a plan and stay calm under pressure",
-          choice1: "Thinking under pressure is easy",
-          choice2: "I can take care of myself at the very least",
-          choice3: "I can think but not make a good plan",
-          choice4: "I stress out",
-      },
-      {
-          question: "You are very sentimental",
-          choice1: "Completely agree",
-          choice2: "Somewhat agree",
-          choice3: "Somewhat disagree",
-          choice4: "Completely disagree",
-      },
-      {
-          question: "I am organized",
-          choice1: "Completely agree",
-          choice2: "Somewhat agree",
-          choice3: "Somewhat disagree",
-          choice4: "Completely disagree",
-      },
-      {
-          question: "How do you feel during presentations?",
-          choice1: "Nervous breakdown",
-          choice2: "A little shy",
-          choice3: "Stumbles a little bit but ends good",
-          choice4: "Confident",
+          question: "Favorite place",
+          choice1: "blank",
+          choice2: "blank",
+          choice3: "blank",
+          choice4: "Greece",
+          choiceAnswer: 4
       }
   ];
 
@@ -247,70 +201,19 @@ nav-menu: true
     localStorage.setItem("score", finalScore);
   }
 
-  getNewQuestion = () => {
+   getNewQuestion = () => {
     // ends if no more questions
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
       const resultContainer = document.getElementById("result");
       console.log(localStorage);
       console.log(localStorage.getItem("finalScore"));
       let matchScore = localStorage.getItem("finalScore")
-      if(matchScore % 2 == 0) {
-          matchScore = +(matchScore) + 0.5
-      }
-      else {
-          matchScore = +(matchScore) - 0.5
-      }
-
       console.log(matchScore)
       // redirects window per score, matching system
       if (matchScore == 10.5) {
         return window.location.assign('/teamteam/dogs/dog_musa/'); 
       }
-      if (matchScore == 12.5) {
-        return window.location.assign('/teamteam/dogs/dog_stark/');      
-      }
-      if (matchScore == 14.5) {
-        return window.location.assign('/teamteam/dogs/dog_stella/');      
-      }
-      if (matchScore == 16.5) {
-        return window.location.assign('/teamteam/dogs/dog_shuri/');  
-      }
-      if (matchScore == 18.5) {
-        return window.location.assign('/teamteam/dogs/dog_parker/');        
-      }
-      if (matchScore == 20.5) {
-        return window.location.assign('/teamteam/dogs/dog_bloom/');     
-      }
-      if (matchScore == 22.5) {
-        return window.location.assign('/teamteam/dogs/dog_thor/');     
-      }
-      if (matchScore == 24.5) {
-        return window.location.assign('/teamteam/dogs/dog_cap/');     
-      }
-      if (matchScore == 26.5) {
-        return window.location.assign('/teamteam/dogs/dog_doug/');
-      }
-      if (matchScore == 28.5) {
-        return window.location.assign('/teamteam/dogs/dog_honey/');
-      }
-      if (matchScore == 30.5) {
-        return window.location.assign('/teamteam/dogs/dog_julie/');
-      }
-      if (matchScore == 32.5) {
-        return window.location.assign('/teamteam/dogs/dog_shang/');
-      }
-      if (matchScore == 34.5) {
-        return window.location.assign('/teamteam/dogs/dog_joe/');
-      }
-      if (matchScore == 36.5) {
-        return window.location.assign('/teamteam/dogs/dog_harry/');
-      }
-      if (matchScore == 38.5) {
-        return window.location.assign('/teamteam/dogs/dog_tasha/');    
-      }
-      if (matchScore == 40.5) {
-      return window.location.assign('/teamteam/dogs/dog_bean/');   
-      }
+
       localStorage.clear();
     }
     questionCounter++;
@@ -338,23 +241,12 @@ nav-menu: true
           acceptingAnswers = false;
           const selectedChoice = e.target;
           const selectedAnswer = selectedChoice.dataset['number'];
-          let userAnswer = selectedChoice.dataset['number'];
-          console.log(selectedAnswer);
-          if (userAnswer == 1)  {
+          const choiceAnswer = currentQuestion.choiceAnswer;
+          console.log("Selected Answer: " + selectedAnswer);
+
+          if (selectedAnswer == choiceAnswer)  {
             questionTotal = questionTotal + 1
-            console.log(questionTotal)
-          }
-          if (userAnswer == 2)  {
-            questionTotal = questionTotal + 2
-            console.log(questionTotal)
-          }
-          if (userAnswer == 3)  {
-            questionTotal = questionTotal + 3
-            console.log(questionTotal)
-          }
-          if (userAnswer == 4)  {
-            questionTotal = questionTotal + 4
-            console.log(questionTotal)
+            console.log("Score: " + questionTotal)
           }
 
           localStorage.setItem("finalScore", questionTotal)
@@ -365,10 +257,5 @@ nav-menu: true
   //starts game/quiz and will console the array of choices that the user has. IE 1-4
   startGame();
   console.log(choices)
-
-  //fetches the api and displays in console.log for example
-  fetch('https://fluffyfriendfinder.nighthawkcodingsociety.com/api/users/')
-    .then((response) => response.json())
-    .then((data) => console.log(data));
   
 </script>
