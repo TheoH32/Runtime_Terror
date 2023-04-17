@@ -129,17 +129,22 @@
 
 <ol>
   <li>Read from right to left.</li>
-  <li>Start with 2<sup>0</sup> on the right, when the most right bit is 1 (not 0), then it has a value of 1.</li>
+  <li>Each digit is the placeholder for a power of two. As you work your way left, you add one to the power of 2. For an example:
+<img src="https://user-images.githubusercontent.com/111486111/230678754-be59dac2-e44d-4902-95a8-730fd72dfcc4.png" alt="binary tutorial two" />
+Above, you can see that you start with 2<sup>0</sup>, then 2<sup>1</sup>, 2<sup>2</sup> and so on.</li>
+  <li>When you see the digit (bit) as a 1, it means that you are adding that power’s value to your “total” Look below for an example:</li>
 </ol>
-<pre><code>
-ex. 0001 = 1
-</code></pre>
-<ol>
-  <li>Work your way left: ex. 2<sup>1</sup>=2, 2<sup>2</sup>=4 and so on. When the bit is on, add its value to your total</li>
-</ol>
+
+<p><mark>Make sure that you are starting with 2<sup>0</sup>, NOT 2<sup>1</sup> </mark></p>
 <pre><code>
 ex.
+2<sup>0</sup>= 1, so:
+0001 = 1
+
+2<sup>1</sup>= 2, so:
 0010 = 2
+
+2<sup>2</sup>= 4, so:
 0100 = 4
 
 Now add them up!
@@ -165,9 +170,18 @@ ex. 01110101
 
 <p><strong>You can play round with <a href="https://www.computerhope.com/cgi-bin/convert.pl">this tool</a> to convert your text to binary and vise versa</strong></p>
 
+<h2 id="converting-binary-to-ascii-and-hexadecimal">Converting Binary to ASCII and Hexadecimal</h2>
+
+<p><img src="https://user-images.githubusercontent.com/111486111/230680279-a725350e-3e97-4be3-9d21-9eed903f270b.png" alt="hex and ascii table" /></p>
+
+<p><strong><a href="https://drive.google.com/file/d/1t9TInY5K0yCfZnKKIW3VBNkqJsw8IzgB/view">Click Here</a> to view a full conversion table between binary, hexadecimal, and ASCII</strong></p>
+
 <h1 id="boolean-expressions">Boolean Expressions</h1>
 <blockquote>
-  <p>definition here</p>
+  <p>A Boolean expression is a logical statement that is either TRUE or FALSE</p>
+  <ul>
+    <li>compare data to test if data is equal to, greater than, or less than other data</li>
+  </ul>
 </blockquote>
 
 <h3 id="truth-tables">Truth Tables</h3>

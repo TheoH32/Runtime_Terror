@@ -27,14 +27,21 @@ Do you see how the iconic power button is comprised of a zero and a one? The zer
 ![binarytutorial](https://user-images.githubusercontent.com/111486111/230675163-d49a20b5-f8f4-4997-bb19-c10d5ca72a76.jpg)
 
 1. Read from right to left.
-2. Start with 2<sup>0</sup> on the right, when the most right bit is 1 (not 0), then it has a value of 1. 
-<pre><code>
-ex. 0001 = 1
-</code></pre>
-3. Work your way left: ex. 2<sup>1</sup>=2, 2<sup>2</sup>=4 and so on. When the bit is on, add its value to your total
+2. Each digit is the placeholder for a power of two. As you work your way left, you add one to the power of 2. For an example:
+![binary tutorial two](https://user-images.githubusercontent.com/111486111/230678754-be59dac2-e44d-4902-95a8-730fd72dfcc4.png)
+Above, you can see that you start with 2<sup>0</sup>, then 2<sup>1</sup>, 2<sup>2</sup> and so on.
+3. When you see the digit (bit) as a 1, it means that you are adding that power's value to your "total" Look below for an example:
+
+<mark>Make sure that you are starting with 2<sup>0</sup>, NOT 2<sup>1</sup> </mark>
 <pre><code>
 ex.
+2<sup>0</sup>= 1, so:
+0001 = 1
+
+2<sup>1</sup>= 2, so:
 0010 = 2
+
+2<sup>2</sup>= 4, so:
 0100 = 4
 
 Now add them up!
@@ -61,9 +68,20 @@ ex. 01110101
 
 **You can play round with [this tool](https://www.computerhope.com/cgi-bin/convert.pl) to convert your text to binary and vise versa**
 
+## Converting Binary to ASCII and Hexadecimal
+
+![hex and ascii table](https://user-images.githubusercontent.com/111486111/230680279-a725350e-3e97-4be3-9d21-9eed903f270b.png)
+
+
+
+
+**[Click Here](https://drive.google.com/file/d/1t9TInY5K0yCfZnKKIW3VBNkqJsw8IzgB/view) to view a full conversion table between binary, hexadecimal, and ASCII**
+
+
 
 # Boolean Expressions
-> definition here
+> A Boolean expression is a logical statement that is either TRUE or FALSE
+- compare data to test if data is equal to, greater than, or less than other data
 
 
 
