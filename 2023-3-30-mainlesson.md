@@ -6,10 +6,89 @@ image: assets/images/mainlesson.jpg
 nav-menu: true
 ---
 
+# Binary 
+
+### What is Binary?
+ - According to [Computer Hope](https://www.computerhope.com/jargon/b/binary.htm): <mark>Binary is a base-2 number system</mark> invented by Gottfried Leibniz that's made up of <mark>only two numbers or digits: 0 and 1.</mark> This numbering system is the basis for all binary code, which writes digital data such as the computer processor instructions **used with your devices every day.**
+
+ - 0 = represents OFF
+ - 1 = represents ON
+ 
+
+### Fun Fact! Connections with Binary
+![power button](https://user-images.githubusercontent.com/111486111/229915329-cc5e5c3b-cfd7-4313-8c57-f2a02e36c3bb.png)
+
+Do you see how the iconic power button is comprised of a zero and a one? The zero represents the device being off, and the one represents the device being on.
+
+
+### How Do you Read Binary?
+> Since binary is a base two system, we can count in binary by using powers of two. 
+
+![binarytutorial](https://user-images.githubusercontent.com/111486111/230675163-d49a20b5-f8f4-4997-bb19-c10d5ca72a76.jpg)
+
+1. Read from right to left.
+2. Each digit is the placeholder for a power of two. As you work your way left, you add one to the power of 2. For an example:
+![binary tutorial two](https://user-images.githubusercontent.com/111486111/230678754-be59dac2-e44d-4902-95a8-730fd72dfcc4.png)
+Above, you can see that you start with 2<sup>0</sup>, then 2<sup>1</sup>, 2<sup>2</sup> and so on.
+3. When you see the digit (bit) as a 1, it means that you are adding that power's value to your "total" Look below for an example:
+
+<mark>Make sure that you are starting with 2<sup>0</sup>, NOT 2<sup>1</sup> </mark>
+<pre><code>
+ex.
+2<sup>0</sup>= 1, so:
+0001 = 1
+
+2<sup>1</sup>= 2, so:
+0010 = 2
+
+2<sup>2</sup>= 4, so:
+0100 = 4
+
+Now add them up!
+0111 = 4 + 2 + 1 = 7
+</code></pre>
+
+### Binary Vocabulary
+
+<mark>Bit</mark>= A binary digit = the minimum unit of binary information stored in a computer system (only two states: 1 or 0)
+<pre><code>
+ex. 1 or 0
+</code></pre>
+
+<mark>Nibble</mark>= 4 bits or half of a byte
+<pre><code>
+ex. 0001
+</code></pre>
+
+<mark>Byte</mark>= 8 bits or 2 nibbles
+<pre><code>
+ex. 01110101
+</code></pre>
+
+
+**You can play round with [this tool](https://www.computerhope.com/cgi-bin/convert.pl) to convert your text to binary and vise versa**
+
+## Converting Binary to ASCII and Hexadecimal
+
+![hex and ascii table](https://user-images.githubusercontent.com/111486111/230680279-a725350e-3e97-4be3-9d21-9eed903f270b.png)
+
+
+
+
+**[Click Here](https://drive.google.com/file/d/1t9TInY5K0yCfZnKKIW3VBNkqJsw8IzgB/view) to view a full conversion table between binary, hexadecimal, and ASCII**
+
+
+
 # Boolean Expressions
-> definition here
+> A Boolean expression is a logical statement that is either TRUE or FALSE
+- compare data to test if data is equal to, greater than, or less than other data
 
 
+
+### Truth Tables
+> <mark>Truth tables</mark> represent the possible inputs and outputs of the logical operations of AND, OR, NOT, and XOR.
+
+![truth tables]({{site.baseurl}}/assets/images/truthtables.png)
 
 
 # How is Binary Related to Boolean Expressions?
@@ -25,9 +104,40 @@ Binary values are used to represent information. Boolean expressions are used to
 |not	|Negation|
 
 
+<pre><code>
+AND:
+5 > 3 and 5 == 3 + 2
+true
+5 < 3 and 5 == 5
+false
 
-# Truth Tables
+OR:
+5 == 5 or 5 != 5
+True
+5 < 3 or 5 != 5
+False
 
-<mark>Truth tables</mark> represent the possible inputs and outputs of the logical operations of AND, OR, NOT, and XOR.
+</code></pre>
 
-![truth tables]({{site.baseurl}}/assets/images/truthtables.png)
+
+### What About a Real Life Example?
+> Here is an example of the use of boolean expressions in real life.
+
+
+<pre><code>
+age = 18
+citizen = True
+
+if age >= 18 and citizen:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+
+You are eligible to vote.
+
+</code></pre>
+
+
+
+# Hacks
+

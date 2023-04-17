@@ -47,6 +47,8 @@
 		    
 		
 		    
+		
+		    
 		        <li><a href="http://localhost:4000/Runtime-Terror/">Home</a></li>
 	    	
 		
@@ -59,6 +61,10 @@
 		
 		    
 		        <li><a href="http://localhost:4000/Runtime-Terror/2023-03-21-extraresources.html">Extra Resources</a></li>
+		    
+		
+		    
+		        <li><a href="http://localhost:4000/Runtime-Terror/2023-04-16-imagelesson.html">Pixel Art Image Lesson</a></li>
 		    
 		
 		    
@@ -104,10 +110,92 @@
 			<h1>Main Binary Lesson</h1>
 		</header>
 		<span class="image main"><img src="/Runtime-Terror/assets/images/mainlesson.jpg" alt="" /></span>
-		<h1 id="boolean-expressions">Boolean Expressions</h1>
+		<h1 id="binary">Binary</h1>
+
+<h3 id="what-is-binary">What is Binary?</h3>
+<ul>
+  <li>
+    <p>According to <a href="https://www.computerhope.com/jargon/b/binary.htm">Computer Hope</a>: <mark>Binary is a base-2 number system</mark> invented by Gottfried Leibniz that’s made up of <mark>only two numbers or digits: 0 and 1.</mark> This numbering system is the basis for all binary code, which writes digital data such as the computer processor instructions <strong>used with your devices every day.</strong></p>
+  </li>
+  <li>0 = represents OFF</li>
+  <li>1 = represents ON</li>
+</ul>
+
+<h3 id="fun-fact-connections-with-binary">Fun Fact! Connections with Binary</h3>
+<p><img src="https://user-images.githubusercontent.com/111486111/229915329-cc5e5c3b-cfd7-4313-8c57-f2a02e36c3bb.png" alt="power button" /></p>
+
+<p>Do you see how the iconic power button is comprised of a zero and a one? The zero represents the device being off, and the one represents the device being on.</p>
+
+<h3 id="how-do-you-read-binary">How Do you Read Binary?</h3>
 <blockquote>
-  <p>definition here</p>
+  <p>Since binary is a base two system, we can count in binary by using powers of two.</p>
 </blockquote>
+
+<p><img src="https://user-images.githubusercontent.com/111486111/230675163-d49a20b5-f8f4-4997-bb19-c10d5ca72a76.jpg" alt="binarytutorial" /></p>
+
+<ol>
+  <li>Read from right to left.</li>
+  <li>Each digit is the placeholder for a power of two. As you work your way left, you add one to the power of 2. For an example:
+<img src="https://user-images.githubusercontent.com/111486111/230678754-be59dac2-e44d-4902-95a8-730fd72dfcc4.png" alt="binary tutorial two" />
+Above, you can see that you start with 2<sup>0</sup>, then 2<sup>1</sup>, 2<sup>2</sup> and so on.</li>
+  <li>When you see the digit (bit) as a 1, it means that you are adding that power’s value to your “total” Look below for an example:</li>
+</ol>
+
+<p><mark>Make sure that you are starting with 2<sup>0</sup>, NOT 2<sup>1</sup> </mark></p>
+<pre><code>
+ex.
+2<sup>0</sup>= 1, so:
+0001 = 1
+
+2<sup>1</sup>= 2, so:
+0010 = 2
+
+2<sup>2</sup>= 4, so:
+0100 = 4
+
+Now add them up!
+0111 = 4 + 2 + 1 = 7
+</code></pre>
+
+<h3 id="binary-vocabulary">Binary Vocabulary</h3>
+
+<p><mark>Bit</mark>= A binary digit = the minimum unit of binary information stored in a computer system (only two states: 1 or 0)</p>
+<pre><code>
+ex. 1 or 0
+</code></pre>
+
+<p><mark>Nibble</mark>= 4 bits or half of a byte</p>
+<pre><code>
+ex. 0001
+</code></pre>
+
+<p><mark>Byte</mark>= 8 bits or 2 nibbles</p>
+<pre><code>
+ex. 01110101
+</code></pre>
+
+<p><strong>You can play round with <a href="https://www.computerhope.com/cgi-bin/convert.pl">this tool</a> to convert your text to binary and vise versa</strong></p>
+
+<h2 id="converting-binary-to-ascii-and-hexadecimal">Converting Binary to ASCII and Hexadecimal</h2>
+
+<p><img src="https://user-images.githubusercontent.com/111486111/230680279-a725350e-3e97-4be3-9d21-9eed903f270b.png" alt="hex and ascii table" /></p>
+
+<p><strong><a href="https://drive.google.com/file/d/1t9TInY5K0yCfZnKKIW3VBNkqJsw8IzgB/view">Click Here</a> to view a full conversion table between binary, hexadecimal, and ASCII</strong></p>
+
+<h1 id="boolean-expressions">Boolean Expressions</h1>
+<blockquote>
+  <p>A Boolean expression is a logical statement that is either TRUE or FALSE</p>
+  <ul>
+    <li>compare data to test if data is equal to, greater than, or less than other data</li>
+  </ul>
+</blockquote>
+
+<h3 id="truth-tables">Truth Tables</h3>
+<blockquote>
+  <p><mark>Truth tables</mark> represent the possible inputs and outputs of the logical operations of AND, OR, NOT, and XOR.</p>
+</blockquote>
+
+<p><img src="/Runtime-Terror/assets/images/truthtables.png" alt="truth tables" /></p>
 
 <h1 id="how-is-binary-related-to-boolean-expressions">How is Binary Related to Boolean Expressions?</h1>
 
@@ -138,11 +226,41 @@
   </tbody>
 </table>
 
-<h1 id="truth-tables">Truth Tables</h1>
+<pre><code>
+AND:
+5 &gt; 3 and 5 == 3 + 2
+true
+5 &lt; 3 and 5 == 5
+false
 
-<p><mark>Truth tables</mark> represent the possible inputs and outputs of the logical operations of AND, OR, NOT, and XOR.</p>
+OR:
+5 == 5 or 5 != 5
+True
+5 &lt; 3 or 5 != 5
+False
 
-<p><img src="/Runtime-Terror/assets/images/truthtables.png" alt="truth tables" /></p>
+</code></pre>
+
+<h3 id="what-about-a-real-life-example">What About a Real Life Example?</h3>
+<blockquote>
+  <p>Here is an example of the use of boolean expressions in real life.</p>
+</blockquote>
+
+<pre><code>
+age = 18
+citizen = True
+
+if age &gt;= 18 and citizen:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+
+You are eligible to vote.
+
+</code></pre>
+
+<h1 id="hacks">Hacks</h1>
+
 
 	</div>
 </section>
