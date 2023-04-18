@@ -159,7 +159,7 @@ Now add them up!
 Binary search is an efficient way to scan through larger arrays. A binary search is often more efficient than sequential/linear search when applied to sorted data. This is due to the greatest number of steps required following the format: **log<sub>2</sub>(n)+1**, in which n is the number of items in the array.
 
 
-- For an example, an array with 10,000 items would only require a maximum of 14 steps (log<sub>2</sub>(10)+1 = 14) instead of 10,000 steps for a sequential/linear search. As lists grow larger, binary search can be a great help in decreasing program time and increasing efficiency.
+- For an example, an array with 10,000 items would only require a maximum of 14 steps (log<sub>2</sub>(10,000)+1 = 14) instead of 10,000 steps for a sequential/linear search. As lists grow larger, binary search can be a great help in decreasing program time and increasing efficiency.
 
 <img src="https://user-images.githubusercontent.com/111486111/232644470-c0212a9d-a94e-49ff-8942-e3b682ef5e51.png"  width="800">
 
