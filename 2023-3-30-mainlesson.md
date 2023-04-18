@@ -45,7 +45,7 @@ ex. 01110101
 - compare data to test if data is equal to, greater than, or less than other data
 
 
-# How is Binary Related to Boolean Expressions?
+### How is Binary Related to Boolean Expressions?
 
 <mark>Binary and Boolean expressions</mark> are closely related because Boolean expressions are typically used to evaluate binary values, which can either be true or false (1 or 0).
 
