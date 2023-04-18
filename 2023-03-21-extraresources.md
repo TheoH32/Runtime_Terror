@@ -6,7 +6,7 @@ image: assets/images/binaryeasyas123.jpg
 nav-menu: true
 ---
 
-# 1001 01 01 (911) Binary Help
+# 1001 0001 0001 (911) Binary Help
 
 ## Need help?
 > This page offers simple definitions and extra resources!
