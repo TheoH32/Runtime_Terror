@@ -166,7 +166,7 @@ Binary search is an efficient way to scan through larger arrays. A binary search
 - Binary search also works with a list of strings. We can sort them alphabetically and use the same method to find the desired string.
 
 ### Binary Search Trees
-> We can represent binary searches with binary tree diagrams. These diagrams help represent the number of iterations required to find a desired item. 
+> We can represent binary searches with binary search tree diagrams. These diagrams help represent the number of iterations required to find a desired item. 
 
 <img src="https://user-images.githubusercontent.com/111486111/232642475-44f78505-45de-47db-9868-b0851889831c.png"  width="800">
 
@@ -195,7 +195,7 @@ Binary search is an efficient way to scan through larger arrays. A binary search
 				<td>0.1</td>
 			</tr>
 			<tr>
-				<td>lesson quiz [here]() LINK LESSON</td>
+				<td>lesson quiz [here]() LINK LESSON <mark>INCORRECT ANSWERS= 0.2 will be awarded</mark></td>
 				<td>0.2</td>
 			</tr>
 			<tr>
