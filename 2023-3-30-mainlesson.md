@@ -44,13 +44,6 @@ ex. 01110101
 - compare data to test if data is equal to, greater than, or less than other data
 
 
-
-### Truth Tables
-> <mark>Truth tables</mark> represent the possible inputs and outputs of the logical operations of AND, OR, NOT, and XOR.
-
-![truth tables]({{site.baseurl}}/assets/images/truthtables.png)
-
-
 # How is Binary Related to Boolean Expressions?
 
 <mark>Binary and Boolean expressions</mark> are closely related because Boolean expressions are typically used to evaluate binary values, which can either be true or false (1 or 0).
@@ -62,6 +55,12 @@ Binary values are used to represent information. Boolean expressions are used to
 |and	|Conjunction|
 |or	|Disjunction|
 |not	|Negation|
+
+
+### Truth Tables
+> <mark>Truth tables</mark> represent the possible inputs and outputs of the logical operations of AND, OR, NOT, and XOR.
+
+![truth tables]({{site.baseurl}}/assets/images/truthtables.png)
 
 
 <pre><code>
