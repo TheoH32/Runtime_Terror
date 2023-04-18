@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: Learn about the binary number system!
+landing-title: Learn about binary!
 description: null
 image: null
 author: null
