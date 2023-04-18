@@ -6,7 +6,7 @@ image: assets/images/pixelbunny.jpg
 nav-menu: true
 ---
 ## What is Pixel Art?
-> Pixel art is an artistic design based on pixels and created using digital means. 
+> Pixel art is an artistic design based on pixels and created using digital means. Pixel art is commonly used in video games, especially for a retro effect. Things like QR codes and bar codes are also techniquely pixel art.
 
 ## How is Binary Incorporated?
 > In an image created from pixel art, the pixels must be either "on" or "off" and be a certain color (if not black and white). This involves binary, since there is a boolean output (2 possible outputs, 0 or 1).
