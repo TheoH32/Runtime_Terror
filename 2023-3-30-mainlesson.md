@@ -146,7 +146,15 @@ Now add them up!
 
 
 # Binary Search
+> Binary search is an algorithm that helps find an item in a **sorted list** of items by dividing the list in half until the desired item is found. 
 
+![image](https://user-images.githubusercontent.com/111486111/232641209-44233e34-bff5-4cf1-9c0e-81caeaacb87d.png)
+In this example, the target number is 7. Since 7 is greater than 2, the midpoint of the list, we now only search the higher side. When searching the higher side, 7 is still greater than the middle number so we search the higher side again until we reach the target number of 7.
+
+
+Binary search is an efficient way to scan through larger arrays. This is due to the greatest number of steps required following the format: **log<sub>2</sub>(n)+1**, in which n is the number of items in the array.
+
+For an example, an array with 10,000 items would only require a maximum of 14 steps instead of 10,000 steps for searching through the items individually. As lists grow larger, binary search can be a great help in decreasing program time and increasing efficiency.
 
 # Hacks
 
