@@ -14,11 +14,12 @@ nav-menu: true
 <style>
     .boxed {
         width:800px;
-        margin: auto;
-        border: 3px solid grey;
+        margin: 30px auto;
+        border: 5px solid grey;
     }
 
     h1 {
+        margin: 20px;
         text-align: center;
     }
 
