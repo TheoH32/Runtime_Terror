@@ -21,33 +21,6 @@ nav-menu: true
 Do you see how the iconic power button is comprised of a zero and a one? The zero represents the device being off, and the one represents the device being on.
 
 
-### How Do you Read Binary?
-> Since binary is a base two system, we can count in binary by using powers of two. 
-
-![binarytutorial](https://user-images.githubusercontent.com/111486111/230675163-d49a20b5-f8f4-4997-bb19-c10d5ca72a76.jpg)
-
-1. Read from right to left.
-2. Each digit is the placeholder for a power of two. As you work your way left, you add one to the power of 2. For an example:
-![binary tutorial two](https://user-images.githubusercontent.com/111486111/230678754-be59dac2-e44d-4902-95a8-730fd72dfcc4.png)
-Above, you can see that you start with 2<sup>0</sup>, then 2<sup>1</sup>, 2<sup>2</sup> and so on.
-3. When you see the digit (bit) as a 1, it means that you are adding that power's value to your "total" Look below for an example:
-
-<mark>Make sure that you are starting with 2<sup>0</sup>, NOT 2<sup>1</sup> </mark>
-<pre><code>
-ex.
-2<sup>0</sup>= 1, so:
-0001 = 1
-
-2<sup>1</sup>= 2, so:
-0010 = 2
-
-2<sup>2</sup>= 4, so:
-0100 = 4
-
-Now add them up!
-0111 = 4 + 2 + 1 = 7
-</code></pre>
-
 ### Binary Vocabulary
 
 <mark>Bit</mark>= A binary digit = the minimum unit of binary information stored in a computer system (only two states: 1 or 0)
@@ -128,6 +101,31 @@ You are eligible to vote.
 # Conversions with Binary
 
 ### Converting Binary to Decimal
+> Since binary is a base two system, we can count in binary by using powers of two. 
+
+![binarytutorial](https://user-images.githubusercontent.com/111486111/230675163-d49a20b5-f8f4-4997-bb19-c10d5ca72a76.jpg)
+
+1. Read from right to left.
+2. Each digit is the placeholder for a power of two. As you work your way left, you add one to the power of 2. For an example:
+![binary tutorial two](https://user-images.githubusercontent.com/111486111/230678754-be59dac2-e44d-4902-95a8-730fd72dfcc4.png)
+Above, you can see that you start with 2<sup>0</sup>, then 2<sup>1</sup>, 2<sup>2</sup> and so on.
+3. When you see the digit (bit) as a 1, it means that you are adding that power's value to your "total" Look below for an example:
+
+<mark>Make sure that you are starting with 2<sup>0</sup>, NOT 2<sup>1</sup> </mark>
+<pre><code>
+ex.
+2<sup>0</sup>= 1, so:
+0001 = 1
+
+2<sup>1</sup>= 2, so:
+0010 = 2
+
+2<sup>2</sup>= 4, so:
+0100 = 4
+
+Now add them up!
+0111 = 4 + 2 + 1 = 7
+</code></pre>
 
 
 ### Converting Binary to Hexadecimal
