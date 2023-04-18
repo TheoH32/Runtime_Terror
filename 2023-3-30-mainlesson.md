@@ -195,7 +195,7 @@ Binary search is an efficient way to scan through larger arrays. A binary search
 				<td>0.1</td>
 			</tr>
 			<tr>
-				<td>lesson quiz [here]() LINK LESSON</td>
+				<td>lesson quiz [here]() LINK LESSON <mark>INCORRECT ANSWERS= 0.2 will be awarded</mark></td>
 				<td>0.2</td>
 			</tr>
 			<tr>
