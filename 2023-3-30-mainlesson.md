@@ -66,19 +66,6 @@ ex. 01110101
 </code></pre>
 
 
-**You can play round with [this tool](https://www.computerhope.com/cgi-bin/convert.pl) to convert your text to binary and vise versa**
-
-## Converting Binary to ASCII and Hexadecimal
-
-![hex and ascii table](https://user-images.githubusercontent.com/111486111/230680279-a725350e-3e97-4be3-9d21-9eed903f270b.png)
-
-
-
-
-**[Click Here](https://drive.google.com/file/d/1t9TInY5K0yCfZnKKIW3VBNkqJsw8IzgB/view) to view a full conversion table between binary, hexadecimal, and ASCII**
-
-
-
 # Boolean Expressions
 > A Boolean expression is a logical statement that is either TRUE or FALSE
 - compare data to test if data is equal to, greater than, or less than other data
@@ -121,7 +108,7 @@ False
 
 
 ### What About a Real Life Example?
-> Here is an example of the use of boolean expressions in real life.
+> Here is an example of the use of boolean expressions in a real life situation.
 
 
 <pre><code>
@@ -138,6 +125,75 @@ You are eligible to vote.
 </code></pre>
 
 
+# Conversions with Binary
+
+### Converting Binary to Decimal
+
+
+### Converting Binary to Hexadecimal
+
+
+
+### Converting Binary to ASCII
+
+![hex and ascii table](https://user-images.githubusercontent.com/111486111/230680279-a725350e-3e97-4be3-9d21-9eed903f270b.png)
+
+
+
+**You can play round with [this tool](https://www.computerhope.com/cgi-bin/convert.pl) to convert your text to binary and vise versa**
+
+**[Click Here](https://drive.google.com/file/d/1t9TInY5K0yCfZnKKIW3VBNkqJsw8IzgB/view) to view a full conversion table between binary, hexadecimal, and ASCII**
+
+
+
+
 
 # Hacks
 
+<mark>STUDENTS</mark>: COMPLETE HACKS IN NOTEBOOK
+    wget here: LINK HERE
+
+<mark>You will NOT be awarded any points for sections that are INCOMPLETE</mark>
+
+
+<!-- Table -->
+
+<div class="table-wrapper">
+	<table>
+		<thead>
+			<tr>
+				<th>Hack</th>
+				<th>Grade</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>note taker (fill in the blanks in notebook)</td>
+				<td>0.1</td>
+			</tr>
+			<tr>
+				<td>lesson quiz [here]() LINK LESSON</td>
+				<td>0.2</td>
+			</tr>
+			<tr>
+				<td>binary conversions practice <mark>IF INCORRECT = 0.2 will be awarded</mark></td>
+				<td>0.3</td>
+			</tr>
+			<tr>
+				<td>binary search questions <mark>IF INCORRECT = 0.2 will be awarded</mark></td>
+				<td>0.3</td>
+			</tr>
+			<tr>
+				<td>EXTRA CREDIT: translate to octal (show work and explain thought process so no translator)</td>
+				<td>0.1</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="1"></td>
+				<td>/1</td>
+			</tr>
+		</tfoot>
+	</table>
+</div>
+Meets all expectations (no extra credit): 0.9/1
