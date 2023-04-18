@@ -64,6 +64,8 @@ Binary values are used to represent information. Boolean expressions are used to
 
 
 <pre><code>
+Examples:
+
 AND:
 5 > 3 and 5 == 3 + 2
 true
@@ -143,6 +145,7 @@ Now add them up!
 
 
 
+# Binary Search
 
 
 # Hacks
