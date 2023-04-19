@@ -92,6 +92,10 @@
 		        <li><a href="http://localhost:4000/Runtime-Terror/landing.html">Binary Quiz</a></li>
 		    
 		
+		    
+		        <li><a href="http://localhost:4000/Runtime-Terror/quizfinalscore.html">Quiz Score</a></li>
+		    
+		
 	</ul>
 	<ul class="actions vertical">
 		<li><a href="#" class="button special fit">Get Started</a></li>
@@ -102,7 +106,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dog Matcher Quiz!</title>
+    <title>Binary Quiz</title>
 </head>
 
 <body>
@@ -117,7 +121,7 @@
               </h1>
             </div>
           </div>
-            <h2 id="question">What personality do you want your dog to have?</h2>
+            <h2 id="question">Binary Question</h2>
             <div class="choice-container">
                 <small class="choice-prefix">A</small>
                 <small class="choice-text" data-number="1">Choice 1</small>
@@ -234,7 +238,7 @@
   const progressBarFull = document.getElementById('progressBarFull');
   const loader = document.getElementById('loader');
   const game = document.getElementById('game');
-  const MAX_QUESTIONS = 3;
+  const MAX_QUESTIONS = 6;
   const questionCounterText = document.getElementById('questionCounter');
   let currentQuestion = {};
   let acceptingAnswers = false;
@@ -247,28 +251,52 @@
     // Update MAX_QUESTIONS when adding more
     // all questions and choices
       {
-          question: "Favorite color?",
-          choice1: "blank",
-          choice2: "blank",
-          choice3: "purple",
-          choice4: "blank",
-          choiceAnswer: 3
+          question: "What is a bit?",
+          choice1: "a food",
+          choice2: "a binary digit",
+          choice3: "a cool dude that surfs",
+          choice4: "a variable that holds 3 possible values",
+          choiceAnswer: 2
       },
       {
-          question: "Favorite game",
-          choice1: "Apex",
-          choice2: "blank",
-          choice3: "blank",
-          choice4: "blank",
+          question: "Decimal is a base 10 system, while binary is a ____ system",
+          choice1: "base 2",
+          choice2: "base 3",
+          choice3: "base 4",
+          choice4: "object oriented",
           choiceAnswer: 1
       },
       {
-          question: "Favorite place",
-          choice1: "blank",
-          choice2: "blank",
-          choice3: "blank",
-          choice4: "Greece",
+          question: "What is the number(s) used in the binary system?",
+          choice1: "1 and 0.1",
+          choice2: "0 only",
+          choice3: "1 and 2",
+          choice4: "0 and 1",
           choiceAnswer: 4
+      },
+      {
+          question: "What option is NOT an example of a logical operation used in a truth table?",
+          choice1: "AND",
+          choice2: "XOR",
+          choice3: "NONE",
+          choice4: "OR",
+          choiceAnswer: 3
+      },
+      {
+          question: "A byte is how many bits?",
+          choice1: "2",
+          choice2: "6",
+          choice3: "4",
+          choice4: "8",
+          choiceAnswer: 4
+      },
+      {
+          question: "In order for a binary search to be possible,the list must be ___",
+          choice1: "integers",
+          choice2: "sorted",
+          choice3: "have exactly 7 items",
+          choice4: "under 10 items",
+          choiceAnswer: 2
       }
   ];
 
@@ -280,30 +308,12 @@
     getNewQuestion();
   }; 
   // plus minus which finds middle point score for each user
-  endFunction = () => {
-    if(userAnswer % 2 == 0) {
-      let finalScore = userAnswer + .5
-    }
-    else {
-      let finalScore = userAnswer - .5
-    }
-    localStorage.setItem("score", finalScore);
-  }
-
    getNewQuestion = () => {
     // ends if no more questions
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
       const resultContainer = document.getElementById("result");
-      console.log(localStorage);
-      console.log(localStorage.getItem("finalScore"));
-      let matchScore = localStorage.getItem("finalScore")
-      console.log(matchScore)
-      // redirects window per score, matching system
-      if (matchScore == 10.5) {
-        return window.location.assign('/teamteam/dogs/dog_musa/'); 
-      }
-
-      localStorage.clear();
+      // redirects window
+      return window.location.assign('/Runtime-Terror/quizfinalscore.html'); 
     }
     questionCounter++;
     questionCounterText.innerText = `Question: ${questionCounter}/${MAX_QUESTIONS}`;
