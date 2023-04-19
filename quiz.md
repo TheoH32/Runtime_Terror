@@ -1,8 +1,8 @@
 ---
-title: Binary Quiz
+title: Final Quiz
 layout: page
 description: "The final test of knowledge!"
-image: assets/images/pic07.jpg
+image: assets/images/quizpic.jpeg
 nav-menu: true
 ---
 

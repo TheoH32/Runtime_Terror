@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Binary Search
+title: Binary Search Lesson
 description: Binary Search In-Depth
-image: assets/images/image.png
+image: assets/images/dude.jpeg
 nav-menu: true
 ---
 
