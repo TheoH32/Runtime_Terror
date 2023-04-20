@@ -220,7 +220,7 @@ nav-menu: true
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
       const resultContainer = document.getElementById("result");
       // redirects window
-      return window.location.assign('/Runtime-Terror/quizfinalscore.html'); 
+      return window.location.assign('/Runtime_Terror/quizfinalscore.html'); 
     }
     questionCounter++;
     questionCounterText.innerText = `Question: ${questionCounter}/${MAX_QUESTIONS}`;
