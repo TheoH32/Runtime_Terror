@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Game 1
-image: assets/images/pic11.jpg
+title: Binary Parking Game
+image: assets/images/ohfivehondafr.jpeg
 nav-menu: true
 ---
 

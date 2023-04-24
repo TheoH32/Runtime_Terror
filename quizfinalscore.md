@@ -32,12 +32,9 @@ nav-menu: true
 
 <div class="boxed">
     <h1>
-        Score:
-        <script type="text/javascript">
-            document.write(displayScore)
-        </script>
+    Score: <script type="text/javascript">document.write(displayScore)</script>/6
     </h1>
-    <h2><a href="/Runtime-Terror/landing.html">Try Again</a></h2>
+    <h2><a href="/Runtime_Terror/quiz.html">Try Again</a></h2>
 </div>
 
 

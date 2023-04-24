@@ -1,8 +1,8 @@
 ---
-title: Binary Quiz
+title: Final Quiz
 layout: page
 description: "The final test of knowledge!"
-image: assets/images/pic07.jpg
+image: assets/images/quizpic.jpeg
 nav-menu: true
 ---
 
@@ -220,7 +220,7 @@ nav-menu: true
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
       const resultContainer = document.getElementById("result");
       // redirects window
-      return window.location.assign('/Runtime-Terror/quizfinalscore.html'); 
+      return window.location.assign('/Runtime_Terror/quizfinalscore.html'); 
     }
     questionCounter++;
     questionCounterText.innerText = `Question: ${questionCounter}/${MAX_QUESTIONS}`;
