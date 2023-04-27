@@ -9,11 +9,10 @@ nav-menu: true
 # Binary 
 
 ### What is Binary?
- - According to [Computer Hope](https://www.computerhope.com/jargon/b/binary.htm): <mark>Binary is a base-2 number system</mark> invented by Gottfried Leibniz that's made up of <mark>only two numbers or digits: 0 and 1.</mark> This numbering system is the basis for all binary code, which writes digital data such as the computer processor instructions **used with your devices every day.**
+ - According to [Computer Hope](https://www.computerhope.com/jargon/b/binary.htm): <mark>Binary is a base-2 number system, because each digit represents a power of 2. </mark> invented by Gottfried Leibniz that's made up of <mark>only two numbers or digits: 0 and 1.</mark> This numbering system is the basis for all binary code, which writes digital data such as the computer processor instructions **used with your devices every day.**
 
  - 0 = represents OFF
  - 1 = represents ON
- 
 
 ### Fun Fact! Connections with Binary
 
@@ -21,6 +20,35 @@ nav-menu: true
 
 Do you see how the iconic power button is comprised of a zero and a one? The zero represents the device being off, and the one represents the device being on.
 
+### Understanding it
+To understand binary, it's helpful to first review the decimal, or base-10, number system that we use every day. In decimal, we have 10 digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. Each digit in a decimal number represents a power of 10, starting with the ones place on the right and moving left.
+
+### What is "0b"
+ In Python, you can specify a binary number by prefixing it with 0b. For example, 0b1010 represents the binary number 1010. The bin() function converts a decimal number to a binary string, while the int() function with base 2 as the second argument converts a binary string to a decimal number.
+
+
+<pre><code>
+convert binary to decimal:
+binary_num = '1010'
+decimal_num = int(binary_num, 2)
+print(decimal_num)
+</code></pre>
+
+<pre><code>
+convert decimal to binary:
+decimal_num = 10
+binary_num = bin(decimal_num)
+print(binary_num)
+</code></pre>
+
+Now try to convert a string of letters into binary. 
+
+<pre><code>
+convert string to binary:
+string = 'Hello World'
+binary_string =
+print(binary_string)
+</code></pre>
 
 ### Binary Vocabulary
 
