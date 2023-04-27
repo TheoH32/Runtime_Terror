@@ -21,14 +21,14 @@ Binary is used in computing and digital communication systems because electronic
 ### Text
 When you type a letter or character on your keyboard, the computer converts it into a binary code consisting of 0s and 1s. Each character is assigned a unique binary code using an encoding system such as ASCII . This binary code is stored in the computer's memory or on a storage device, such as a hard drive or flash drive.
 
-### 
-Image: Digital images are made up of pixels, each of which is represented by a binary value. The binary code for each pixel determines its color and position in the image. The more pixels an image has, the more detailed and higher quality it will be.
+### Image:
+ Digital images are made up of pixels, each of which is represented by a binary value. The binary code for each pixel determines its color and position in the image. The more pixels an image has, the more detailed and higher quality it will be.
 
-### 
-Audio: Digital audio files are also represented in binary format. The sound waves are sampled at regular intervals, and each sample is converted into a binary value using a process called quantization. The binary values are then stored as a digital audio file.
+### Audio: 
+Digital audio files are also represented in binary format. The sound waves are sampled at regular intervals, and each sample is converted into a binary value using a process called quantization. The binary values are then stored as a digital audio file.
 
-### 
-Video: Digital video files are made up of a series of images or frames, each of which is stored as a binary file. Like digital images, each frame is made up of pixels that are represented by a binary value. The video file includes information on how each frame should be displayed and how they should transition from one to another.
+### Video: 
+Digital video files are made up of a series of images or frames, each of which is stored as a binary file. Like digital images, each frame is made up of pixels that are represented by a binary value. The video file includes information on how each frame should be displayed and how they should transition from one to another.
 
 
 ### What else does it represent?
