@@ -222,6 +222,31 @@ Binary search is an efficient way to scan through larger arrays. A binary search
 
 - Binary search also works with a list of strings. We can sort them alphabetically and use the same method to find the desired string.
 
+### Activity Idea with students:
+
+1. Write down a list of numbers (e.g., 1, 3, 5, 7, 9, 11, 13, 15) on a piece of paper or whiteboard.
+
+2. Ask your partner to choose a number from the list (without telling you which one they chose).
+
+3. Your partner will then try to guess your number using binary search. Begin by guessing the middle number in the list (in this case, 7).
+
+4. Ask your  partner whether their number is greater than, less than, or equal to your guess of 7.
+
+5. Based on their response, eliminate either the left or right half of the list and repeat the process, guessing the middle number of the remaining half.
+
+6. Continue this process of dividing the remaining numbers in half and guessing the middle number until you guess your partners number correctly.
+
+- For example, if your partner chose the number 9, the process might look like this:
+
+    - Guess 7
+    -  says their number is greater than 7
+    - Eliminate the left half of the list (1, 3, 5, 7)
+    - Guess 11 (the middle number of the remaining half)
+    -  says their number is less than 11
+    - Eliminate the right half of the remaining numbers (13, 15)
+    - Guess 9 (the middle number of the remaining half)
+    -  says you guessed their number correctly!
+
 ### Binary Search Trees
 > We can represent binary searches with binary search tree diagrams. These diagrams help represent the number of iterations required to find a desired item. 
 
