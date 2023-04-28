@@ -82,17 +82,6 @@ Imagine you are looking for a particular word in a dictionary with thousands of 
 - Can be used for searching in computer graphics. Binary search can be used as a building block for more complex algorithms used in computer graphics, such as algorithms for ray tracing or texture mapping.
 - Can be used for searching a database. Binary search can be used to efficiently search a database of records, such as a customer database or a product catalog.
 
-    
-    
-## Hacks
-
-1. Implement binary search: Write code to implement the binary search algorithm for searching a target value in a sorted array. You can start with a simple implementation and then optimize it further.
-
-2. Count the number of occurrences of a value in a sorted array: Given a sorted array of integers and a target value, count the number of occurrences of the target value in the array. You can use binary search to find the first and last occurrence of the value, and then subtract their indices to get the count.
-
-3. Compare the performance of binary search with linear search for different array sizes. Understand when binary search is a better choice than linear search. (Make a diagram?)
-
-
 
 
 
