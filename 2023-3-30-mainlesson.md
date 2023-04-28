@@ -8,12 +8,36 @@ nav-menu: true
 
 # Binary 
 
+### Objective:
+To understand the basics of binary numbers, including their representation, conversion, and arithmetic.
+
 ### What is Binary?
- - According to [Computer Hope](https://www.computerhope.com/jargon/b/binary.htm): <mark>Binary is a base-2 number system</mark> invented by Gottfried Leibniz that's made up of <mark>only two numbers or digits: 0 and 1.</mark> This numbering system is the basis for all binary code, which writes digital data such as the computer processor instructions **used with your devices every day.**
+ - <mark>Binary is a numeral system that uses only two digits, 0 and 1, to represent numbers, characters, and other data. It is also known as base-2 numeral system, which is in contrast to the decimal system, which uses ten digits (0-9) to represent numbers.</mark> In binary, each digit represents a power of 2, starting from the rightmost digit, which represents 2^0, and moving left, with each digit representing a power of 2 one greater than the previous digit. 
+
+### What is it used for?
+
+Binary is used in computing and digital communication systems because electronic devices, such as computers and smartphones, work with digital signals that can only represent two states, on and off, or high and low. By using binary, computers can represent and process all kinds of data, including text, images, audio, and video.
+
+### Text
+When you type a letter or character on your keyboard, the computer converts it into a binary code consisting of 0s and 1s. Each character is assigned a unique binary code using an encoding system such as ASCII . This binary code is stored in the computer's memory or on a storage device, such as a hard drive or flash drive.
+
+### Image:
+ Digital images are made up of pixels, each of which is represented by a binary value. The binary code for each pixel determines its color and position in the image. The more pixels an image has, the more detailed and higher quality it will be.
+
+### Audio: 
+Digital audio files are also represented in binary format. The sound waves are sampled at regular intervals, and each sample is converted into a binary value using a process called quantization. The binary values are then stored as a digital audio file.
+
+### Video: 
+Digital video files are made up of a series of images or frames, each of which is stored as a binary file. Like digital images, each frame is made up of pixels that are represented by a binary value. The video file includes information on how each frame should be displayed and how they should transition from one to another.
+
+
+### What else does it represent?
+In addition to representing numbers, binary is used to represent characters and other data in a system called ASCII (American Standard Code for Information Interchange). Each character is represented by a unique combination of 8 binary digits, known as bits. For example, the capital letter A is represented by the binary code 01000001.
+
+
 
  - 0 = represents OFF
  - 1 = represents ON
- 
 
 ### Fun Fact! Connections with Binary
 
@@ -21,6 +45,39 @@ nav-menu: true
 
 Do you see how the iconic power button is comprised of a zero and a one? The zero represents the device being off, and the one represents the device being on.
 
+
+
+### What is "0b"
+ In Python, you can specify a binary number by prefixing it with 0b. For example, 0b1010 represents the binary number 1010. The bin() function converts a decimal number to a binary string, while the int() function with base 2 as the second argument converts a binary string to a decimal number.
+
+
+<pre><code>
+convert binary to decimal:
+binary_num = '1010'
+decimal_num = int(binary_num, 2)
+print(decimal_num)
+</code></pre>
+
+What is the code above doing? This code is converting a binary number represented as a string, '1010', to a decimal number using the built-in Python function int(). The second argument, 2, tells int() to interpret the string as a binary number.
+The resulting decimal number, 10, is then stored in the variable decimal_num, and printed using the print() function.
+
+<pre><code>
+convert decimal to binary:
+decimal_num = 10
+binary_num = bin(decimal_num)
+print(binary_num)
+</code></pre>
+
+What is the code above doing? This code is converting a decimal number, 10, to a binary number represented as a string using the built-in Python function bin(). The resulting binary number, '0b1010', is then stored in the variable binary_num and printed using the print() function. So, the output of this code will be: 0b1010
+
+Now that you kind of understand the concept, try to convert a string of letters into binary. 
+
+<pre><code>
+convert string to binary:
+string = 'Hello World'
+binary_string =
+print(binary_string)
+</code></pre>
 
 ### Binary Vocabulary
 
@@ -164,6 +221,31 @@ Binary search is an efficient way to scan through larger arrays. A binary search
 <img src="https://user-images.githubusercontent.com/111486111/232644470-c0212a9d-a94e-49ff-8942-e3b682ef5e51.png"  width="800">
 
 - Binary search also works with a list of strings. We can sort them alphabetically and use the same method to find the desired string.
+
+### Activity Idea with students:
+
+1. Write down a list of numbers (e.g., 1, 3, 5, 7, 9, 11, 13, 15) on a piece of paper or whiteboard.
+
+2. Ask your partner to choose a number from the list (without telling you which one they chose).
+
+3. Your partner will then try to guess your number using binary search. Begin by guessing the middle number in the list (in this case, 7).
+
+4. Ask your  partner whether their number is greater than, less than, or equal to your guess of 7.
+
+5. Based on their response, eliminate either the left or right half of the list and repeat the process, guessing the middle number of the remaining half.
+
+6. Continue this process of dividing the remaining numbers in half and guessing the middle number until you guess your partners number correctly.
+
+- For example, if your partner chose the number 9, the process might look like this:
+
+    - Guess 7
+    -  says their number is greater than 7
+    - Eliminate the left half of the list (1, 3, 5, 7)
+    - Guess 11 (the middle number of the remaining half)
+    -  says their number is less than 11
+    - Eliminate the right half of the remaining numbers (13, 15)
+    - Guess 9 (the middle number of the remaining half)
+    -  says you guessed their number correctly!
 
 ### Binary Search Trees
 > We can represent binary searches with binary search tree diagrams. These diagrams help represent the number of iterations required to find a desired item. 
