@@ -188,6 +188,7 @@ Now add them up!
 0111 = 4 + 2 + 1 = 7
 </code></pre>
 
+
 Now to convert decimal to binary simply reverse this process. 
 lets take 7 for example
 - picture 
@@ -199,7 +200,10 @@ lets take 7 for example
 - First you need to assigne each letter past 9 for hexademical as symbol all the way up to the number 15
 - People ususally use letters although any symbol can work. 
 - picture 
-- 
+- picture  
+- Now to convert decimal to hexademical
+- picture
+
 
 
 ### Converting Binary to ASCII
@@ -269,6 +273,8 @@ Binary search is an efficient way to scan through larger arrays. A binary search
 
 <mark>You will NOT be awarded any points for sections that are INCOMPLETE</mark>
 
+- 10 conversion hax 
+
 
 <!-- Table -->
 
@@ -278,8 +284,7 @@ Binary search is an efficient way to scan through larger arrays. A binary search
 |---|---|---|
 | Note Taker | fill in the blanks above | 0.1 |
 | Lesson Quiz | under 100% = 0.1 only | 0.2 |
-| Binary Game | Must get to a score of 10 with screenshot | 0.2 |
-| Binary Conversions Practice | if incorrect= 0.2 awarded | 0.2 |
-| Binary Search Questions | if incorrect= 0.2 awarded | 0.2 |
+| Binary Conversions Practice | if incorrect= 0.2 awarded | 0.3 |
+| Binary Search Questions | if incorrect= 0.2 awarded | 0.3 |
 | Extra Credit | MUST SHOW WORK | 0.1 |
 | Total | expected= 0.9/1 | 1/1 |
