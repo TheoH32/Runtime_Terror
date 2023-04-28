@@ -188,9 +188,18 @@ Now add them up!
 0111 = 4 + 2 + 1 = 7
 </code></pre>
 
+Now to convert decimal to binary simply reverse this process. 
+lets take 7 for example
+- picture 
 
-### Converting Binary to Hexadecimal
+### Converting decimal to Hexadecimal
 
+- Now this is a little bit different then converting to binary
+- Since hexademical is a base 16 number system and decimal is a base 10 number system. 
+- First you need to assigne each letter past 9 for hexademical as symbol all the way up to the number 15
+- People ususally use letters although any symbol can work. 
+- picture 
+- 
 
 
 ### Converting Binary to ASCII
