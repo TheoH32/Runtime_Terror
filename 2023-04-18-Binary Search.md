@@ -42,26 +42,26 @@ Imagine you are looking for a particular word in a dictionary with thousands of 
 
 1. Write down a list of numbers (e.g., 1, 3, 5, 7, 9, 11, 13, 15) on a piece of paper or whiteboard.
 
-2. Ask a student to choose a number from the list (without telling you which one they chose).
+2. Ask your partner to choose a number from the list (without telling you which one they chose).
 
-3. Explain to the student that you will try to guess their number using binary search. Begin by guessing the middle number in the list (in this case, 7).
+3. Your partner will then try to guess your number using binary search. Begin by guessing the middle number in the list (in this case, 7).
 
-4. Ask the student whether their number is greater than, less than, or equal to your guess of 7.
+4. Ask your  partner whether their number is greater than, less than, or equal to your guess of 7.
 
 5. Based on their response, eliminate either the left or right half of the list and repeat the process, guessing the middle number of the remaining half.
 
-6. Continue this process of dividing the remaining numbers in half and guessing the middle number until you guess the student's number correctly.
+6. Continue this process of dividing the remaining numbers in half and guessing the middle number until you guess your partners number correctly.
 
-- For example, if the student chose the number 9, the process might look like this:
+- For example, if your partner chose the number 9, the process might look like this:
 
     - Guess 7
-    - Student says their number is greater than 7
+    -  says their number is greater than 7
     - Eliminate the left half of the list (1, 3, 5, 7)
     - Guess 11 (the middle number of the remaining half)
-    - Student says their number is less than 11
+    -  says their number is less than 11
     - Eliminate the right half of the remaining numbers (13, 15)
     - Guess 9 (the middle number of the remaining half)
-    - Student says you guessed their number correctly!
+    -  says you guessed their number correctly!
 
 ## Advantages of Binary Search:
 - Binary search is faster than linear search, especially for large arrays. As the size of the array increases, the time it takes to perform a linear search increases linearly, while the time it takes to perform a binary search increases logarithmically.
@@ -81,17 +81,6 @@ Imagine you are looking for a particular word in a dictionary with thousands of 
 - Commonly used in Competitive Programming.
 - Can be used for searching in computer graphics. Binary search can be used as a building block for more complex algorithms used in computer graphics, such as algorithms for ray tracing or texture mapping.
 - Can be used for searching a database. Binary search can be used to efficiently search a database of records, such as a customer database or a product catalog.
-
-    
-    
-## Hacks
-
-1. Implement binary search: Write code to implement the binary search algorithm for searching a target value in a sorted array. You can start with a simple implementation and then optimize it further.
-
-2. Count the number of occurrences of a value in a sorted array: Given a sorted array of integers and a target value, count the number of occurrences of the target value in the array. You can use binary search to find the first and last occurrence of the value, and then subtract their indices to get the count.
-
-3. Compare the performance of binary search with linear search for different array sizes. Understand when binary search is a better choice than linear search. (Make a diagram?)
-
 
 
 

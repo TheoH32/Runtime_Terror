@@ -82,7 +82,7 @@
 		    
 		
 		    
-		        <li><a href="http://localhost:4000/Runtime-Terror/elements.html">Binary Parking Game</a></li>
+		        <li><a href="http://localhost:4000/Runtime-Terror/elements.html">Binary Guessing Game</a></li>
 		    
 		
 		    
@@ -116,11 +116,34 @@
 		<span class="image main"><img src="/Runtime-Terror/assets/images/mainlesson.jpg" alt="" /></span>
 		<h1 id="binary">Binary</h1>
 
+<h3 id="objective">Objective:</h3>
+<p>To understand the basics of binary numbers, including their representation, conversion, and arithmetic.</p>
+
 <h3 id="what-is-binary">What is Binary?</h3>
 <ul>
-  <li>
-    <p>According to <a href="https://www.computerhope.com/jargon/b/binary.htm">Computer Hope</a>: <mark>Binary is a base-2 number system</mark> invented by Gottfried Leibniz that’s made up of <mark>only two numbers or digits: 0 and 1.</mark> This numbering system is the basis for all binary code, which writes digital data such as the computer processor instructions <strong>used with your devices every day.</strong></p>
-  </li>
+  <li><mark>Binary is a numeral system that uses only two digits, 0 and 1, to represent numbers, characters, and other data. It is also known as base-2 numeral system, which is in contrast to the decimal system, which uses ten digits (0-9) to represent numbers.</mark> In binary, each digit represents a power of 2, starting from the rightmost digit, which represents 2^0, and moving left, with each digit representing a power of 2 one greater than the previous digit.</li>
+</ul>
+
+<h3 id="what-is-it-used-for">What is it used for?</h3>
+
+<p>Binary is used in computing and digital communication systems because electronic devices, such as computers and smartphones, work with digital signals that can only represent two states, on and off, or high and low. By using binary, computers can represent and process all kinds of data, including text, images, audio, and video.</p>
+
+<h3 id="text">Text</h3>
+<p>When you type a letter or character on your keyboard, the computer converts it into a binary code consisting of 0s and 1s. Each character is assigned a unique binary code using an encoding system such as ASCII . This binary code is stored in the computer’s memory or on a storage device, such as a hard drive or flash drive.</p>
+
+<h3 id="image">Image:</h3>
+<p>Digital images are made up of pixels, each of which is represented by a binary value. The binary code for each pixel determines its color and position in the image. The more pixels an image has, the more detailed and higher quality it will be.</p>
+
+<h3 id="audio">Audio:</h3>
+<p>Digital audio files are also represented in binary format. The sound waves are sampled at regular intervals, and each sample is converted into a binary value using a process called quantization. The binary values are then stored as a digital audio file.</p>
+
+<h3 id="video">Video:</h3>
+<p>Digital video files are made up of a series of images or frames, each of which is stored as a binary file. Like digital images, each frame is made up of pixels that are represented by a binary value. The video file includes information on how each frame should be displayed and how they should transition from one to another.</p>
+
+<h3 id="what-else-does-it-represent">What else does it represent?</h3>
+<p>In addition to representing numbers, binary is used to represent characters and other data in a system called ASCII (American Standard Code for Information Interchange). Each character is represented by a unique combination of 8 binary digits, known as bits. For example, the capital letter A is represented by the binary code 01000001.</p>
+
+<ul>
   <li>0 = represents OFF</li>
   <li>1 = represents ON</li>
 </ul>
@@ -130,6 +153,37 @@
 <p><img src="https://user-images.githubusercontent.com/111486111/229915329-cc5e5c3b-cfd7-4313-8c57-f2a02e36c3bb.png" width="800" /></p>
 
 <p>Do you see how the iconic power button is comprised of a zero and a one? The zero represents the device being off, and the one represents the device being on.</p>
+
+<h3 id="what-is-0b">What is “0b”</h3>
+<p>In Python, you can specify a binary number by prefixing it with 0b. For example, 0b1010 represents the binary number 1010. The bin() function converts a decimal number to a binary string, while the int() function with base 2 as the second argument converts a binary string to a decimal number.</p>
+
+<pre><code>
+convert binary to decimal:
+binary_num = '1010'
+decimal_num = int(binary_num, 2)
+print(decimal_num)
+</code></pre>
+
+<p>What is the code above doing? This code is converting a binary number represented as a string, ‘1010’, to a decimal number using the built-in Python function int(). The second argument, 2, tells int() to interpret the string as a binary number.
+The resulting decimal number, 10, is then stored in the variable decimal_num, and printed using the print() function.</p>
+
+<pre><code>
+convert decimal to binary:
+decimal_num = 10
+binary_num = bin(decimal_num)
+print(binary_num)
+</code></pre>
+
+<p>What is the code above doing? This code is converting a decimal number, 10, to a binary number represented as a string using the built-in Python function bin(). The resulting binary number, ‘0b1010’, is then stored in the variable binary_num and printed using the print() function. So, the output of this code will be: 0b1010</p>
+
+<p>Now that you kind of understand the concept, try to convert a string of letters into binary.</p>
+
+<pre><code>
+convert string to binary:
+string = 'Hello World'
+binary_string =
+print(binary_string)
+</code></pre>
 
 <h3 id="binary-vocabulary">Binary Vocabulary</h3>
 
@@ -264,7 +318,22 @@ Now add them up!
 0111 = 4 + 2 + 1 = 7
 </code></pre>
 
-<h3 id="converting-binary-to-hexadecimal">Converting Binary to Hexadecimal</h3>
+<p>Now to convert decimal to binary simply reverse this process. 
+lets take 7 for example</p>
+<ul>
+  <li>picture</li>
+</ul>
+
+<h3 id="converting-decimal-to-hexadecimal">Converting decimal to Hexadecimal</h3>
+
+<ul>
+  <li>Now this is a little bit different then converting to binary</li>
+  <li>Since hexademical is a base 16 number system and decimal is a base 10 number system.</li>
+  <li>First you need to assigne each letter past 9 for hexademical as symbol all the way up to the number 15</li>
+  <li>People ususally use letters although any symbol can work.</li>
+  <li>picture</li>
+  <li></li>
+</ul>
 
 <h3 id="converting-binary-to-ascii">Converting Binary to ASCII</h3>
 
@@ -297,6 +366,46 @@ Now add them up!
   <li>Binary search also works with a list of strings. We can sort them alphabetically and use the same method to find the desired string.</li>
 </ul>
 
+<h3 id="activity-idea-with-students">Activity Idea with students:</h3>
+
+<ol>
+  <li>
+    <p>Write down a list of numbers (e.g., 1, 3, 5, 7, 9, 11, 13, 15) on a piece of paper or whiteboard.</p>
+  </li>
+  <li>
+    <p>Ask your partner to choose a number from the list (without telling you which one they chose).</p>
+  </li>
+  <li>
+    <p>Your partner will then try to guess your number using binary search. Begin by guessing the middle number in the list (in this case, 7).</p>
+  </li>
+  <li>
+    <p>Ask your  partner whether their number is greater than, less than, or equal to your guess of 7.</p>
+  </li>
+  <li>
+    <p>Based on their response, eliminate either the left or right half of the list and repeat the process, guessing the middle number of the remaining half.</p>
+  </li>
+  <li>
+    <p>Continue this process of dividing the remaining numbers in half and guessing the middle number until you guess your partners number correctly.</p>
+  </li>
+</ol>
+
+<ul>
+  <li>
+    <p>For example, if your partner chose the number 9, the process might look like this:</p>
+
+    <ul>
+      <li>Guess 7</li>
+      <li>says their number is greater than 7</li>
+      <li>Eliminate the left half of the list (1, 3, 5, 7)</li>
+      <li>Guess 11 (the middle number of the remaining half)</li>
+      <li>says their number is less than 11</li>
+      <li>Eliminate the right half of the remaining numbers (13, 15)</li>
+      <li>Guess 9 (the middle number of the remaining half)</li>
+      <li>says you guessed their number correctly!</li>
+    </ul>
+  </li>
+</ul>
+
 <h3 id="binary-search-trees">Binary Search Trees</h3>
 <blockquote>
   <p>We can represent binary searches with binary search tree diagrams. These diagrams help represent the number of iterations required to find a desired item.</p>
@@ -307,51 +416,60 @@ Now add them up!
 <h1 id="hacks">Hacks</h1>
 
 <p><mark>STUDENTS</mark>: COMPLETE HACKS IN NOTEBOOK
-    wget here: LINK HERE</p>
+    wget here: https://raw.githubusercontent.com/avac54765/fastpages-ava/master/_notebooks/2023-04-28-Binary-Lesson-Runtimeterror.ipynb</p>
 
 <p><mark>You will NOT be awarded any points for sections that are INCOMPLETE</mark></p>
 
 <!-- Table -->
 
-<div class="table-wrapper">
-	<table>
-		<thead>
-			<tr>
-				<th>Hack</th>
-				<th>Grade</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>note taker (fill in the blanks in notebook)</td>
-				<td>0.1</td>
-			</tr>
-			<tr>
-				<td>lesson quiz [here]() LINK LESSON <mark>INCORRECT ANSWERS= 0.2 will be awarded</mark></td>
-				<td>0.2</td>
-			</tr>
-			<tr>
-				<td>binary conversions practice <mark>IF INCORRECT = 0.2 will be awarded</mark></td>
-				<td>0.3</td>
-			</tr>
-			<tr>
-				<td>binary search questions <mark>IF INCORRECT = 0.2 will be awarded</mark></td>
-				<td>0.3</td>
-			</tr>
-			<tr>
-				<td>EXTRA CREDIT: translate to octal (show work and explain thought process so no translator)</td>
-				<td>0.1</td>
-			</tr>
-		</tbody>
-		<tfoot>
-			<tr>
-				<td colspan="1"></td>
-				<td>/1</td>
-			</tr>
-		</tfoot>
-	</table>
-</div>
-<p>Meets all expectations (no extra credit): 0.9/1</p>
+<h1 id="hacks-scoring">Hacks Scoring</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hack</th>
+      <th>Comments</th>
+      <th>Grade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Note Taker</td>
+      <td>fill in the blanks above</td>
+      <td>0.1</td>
+    </tr>
+    <tr>
+      <td>Lesson Quiz</td>
+      <td>under 100% = 0.1 only</td>
+      <td>0.2</td>
+    </tr>
+    <tr>
+      <td>Binary Game</td>
+      <td>Must get to a score of 10 with screenshot</td>
+      <td>0.2</td>
+    </tr>
+    <tr>
+      <td>Binary Conversions Practice</td>
+      <td>if incorrect= 0.2 awarded</td>
+      <td>0.2</td>
+    </tr>
+    <tr>
+      <td>Binary Search Questions</td>
+      <td>if incorrect= 0.2 awarded</td>
+      <td>0.2</td>
+    </tr>
+    <tr>
+      <td>Extra Credit</td>
+      <td>MUST SHOW WORK</td>
+      <td>0.1</td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td>expected= 0.9/1</td>
+      <td>1/1</td>
+    </tr>
+  </tbody>
+</table>
 
 	</div>
 </section>
