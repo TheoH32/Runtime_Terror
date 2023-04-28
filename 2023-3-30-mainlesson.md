@@ -278,7 +278,8 @@ Binary search is an efficient way to scan through larger arrays. A binary search
 |---|---|---|
 | Note Taker | fill in the blanks above | 0.1 |
 | Lesson Quiz | under 100% = 0.1 only | 0.2 |
-| Binary Conversions Practice | if incorrect= 0.2 awarded | 0.3 |
-| Binary Search Questions | if incorrect= 0.2 awarded | 0.3 |
+| Binary Game | Must get to a score of 10 with screenshot | 0.2 |
+| Binary Conversions Practice | if incorrect= 0.2 awarded | 0.2 |
+| Binary Search Questions | if incorrect= 0.2 awarded | 0.2 |
 | Extra Credit | MUST SHOW WORK | 0.1 |
 | Total | expected= 0.9/1 | 1/1 |
