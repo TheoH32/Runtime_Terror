@@ -1,5 +1,3 @@
-gem 'faraday-retry', '~> 2.0'
-
 source 'https://rubygems.org'
 
 #jekyll gems
