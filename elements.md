@@ -168,14 +168,8 @@ nav-menu: true
     
 
 
-    </style>
+</style>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Parking!</title>
-    <!-- <link rel="stylesheet" href="mainStyle.css"> -->
-</head>
 
 <body class="flex">
 
@@ -239,19 +233,19 @@ nav-menu: true
 
 <script>
 
-const _ps1 = document.getElementById("ps1")
-const _ps2 = document.getElementById("ps2")
-const _ps3 = document.getElementById("ps3")
-const _ps4 = document.getElementById("ps4")
-const _ps5 = document.getElementById("ps5")
-const _ps6 = document.getElementById("ps6")
-const _ps7 = document.getElementById("ps7")
-const _ps8 = document.getElementById("ps8")
-const _verify = document.getElementById("submit-button")
-//const _answerInput = document.getElementById("user-answer")
-const _form = document.getElementById("form1") 
-const _score = document.getElementById('scoreVal');
-let score = 0
+    const _ps1 = document.getElementById("ps1")
+    const _ps2 = document.getElementById("ps2")
+    const _ps3 = document.getElementById("ps3")
+    const _ps4 = document.getElementById("ps4")
+    const _ps5 = document.getElementById("ps5")
+    const _ps6 = document.getElementById("ps6")
+    const _ps7 = document.getElementById("ps7")
+    const _ps8 = document.getElementById("ps8")
+    const _verify = document.getElementById("submit-button")
+    //const _answerInput = document.getElementById("user-answer")
+    const _form = document.getElementById("form1") 
+    const _score = document.getElementById('scoreVal');
+    let score = 0
 
 
     function randNum1(){
@@ -376,115 +370,3 @@ printNum();
 
 
 </script>
-</body></html></div>
- <!-- COMMENTED OUT BECAUSE I DONT LIKE THE FOOTER, -THEO -->
-
-<!-- Contact 
-<section id="contact">
-	<div class="inner">
-		<section>
-			<form action="https://formspree.io/theo.h131@gmail.com" method="POST">
-				<div class="field half first">
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
-				</div>
-				<div class="field half">
-					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
-				</div>
-				<div class="field">
-					<label for="message">Message</label>
-					<textarea name="message" id="message" rows="6"></textarea>
-				</div>
-				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" /></li>
-					<li><input type="reset" value="Clear" /></li>
-				</ul>
-			</form>
-		</section>
-		<section class="split">
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="mailto:theo.h131@gmail.com">theo.h131@gmail.com</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<a href="tel:"></a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>
-					
-					
-					
-					
-					
-					</span>
-				</div>
-			</section>
-		</section>
-	</div>
-</section>
--->
-
-<!-- Footer
-	<footer id="footer">
-		<div class="inner">
-			<ul class="icons">
-				
-					
-						<li>
-							<a href="https://github.com/TheoH32/Runtime_Terror" class="icon alt fa-github" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-								<span class="label">GitHub</span>
-							</a>
-						</li>
-					
-				
-					
-				
-					
-				
-					
-				
-					
-				
-					
-				
-					
-				
-					
-				
-			</ul>
-			<ul class="copyright">
-				<li>&copy; Learn Binary by Runtime Terror</li>
-				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
-				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
-
-			</ul>
-		</div>
-	</footer>
-
-</div>
--->
-
-<!-- Scripts -->
-	<script src="http://localhost:4000/Runtime-Terror/assets/js/jquery.min.js"></script>
-	<script src="http://localhost:4000/Runtime-Terror/assets/js/jquery.scrolly.min.js"></script>
-	<script src="http://localhost:4000/Runtime-Terror/assets/js/jquery.scrollex.min.js"></script>
-	<script src="http://localhost:4000/Runtime-Terror/assets/js/skel.min.js"></script>
-	<script src="http://localhost:4000/Runtime-Terror/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="http://localhost:4000/Runtime-Terror/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="http://localhost:4000/Runtime-Terror/assets/js/main.js"></script>
-
-
-</body>
-
-</html>
